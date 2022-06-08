@@ -1,0 +1,9 @@
+#titulo, .subtitulo, .tituloPost{
+    color: blue;
+}
+
+.tituloPost{
+    font-size: 16px;
+    font-style: italic;
+
+}
