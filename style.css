@@ -1,9 +1,72 @@
+body{
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+#titulo{
+    text-transform: uppercase;
+}
+
 #titulo, .subtitulo, .tituloPost{
-    color: blue;
+    color: #505050;
+    margin-bottom: 15px;
 }
 
 .tituloPost{
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 
+}
+
+.post{
+    background-color: white;
+    border: 5px solid #505050;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.post_image{
+    display: block;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+
+.title_image{
+    border-radius: 50%;
+    border: 1px solid #505050;
+}
+
+.rodape{
+    color: #505050;
+    text-decoration: line-through;
+    
+}
+
+a{
+    color: #505050;
+}
+
+.lista {
+    list-style-type: upper-roman;
+    padding-left: 15px;
+}
+
+.lista li a{
+    text-decoration: wavy;
+    
 }
